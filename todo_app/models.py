@@ -41,7 +41,7 @@ class Todo(db.Model):
     id = db.Column(db.Integer,primary_key = True)
     text = db.Column(db.Text,nullable=False)
     date = db.Column(db.Date, nullable=True)
-    user_id = db.Column(db.String(64),db.ForeignKey('users.username'),nullable=False)
+    user_id = db.Column(db.String(64),db.ForeignKey('users.username',onupdate="CASCADE"),nullable=False)
 
     def __init__(self,text,user_id,date):
         self.text = text
