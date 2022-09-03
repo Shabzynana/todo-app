@@ -19,10 +19,9 @@ app.config['SECRET_KEY'] = 'mysegcret'
 ##########################################
 # basedir = os.path.abspath(os.path.dirname(__file__))
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'data.sqlite')
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://ykfbqpwnfvefqh:3e2ce15159c5476be39d4989f0e0439d5d7f48951cbf5722d50fdd9a6e5bf52b@ec2-54-159-175-38.compute-1.amazonaws.com:5432/d5maedbac8rene"
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://ffsblmgmysrynv:4cd778e747a75d7bd04e8e4ea51158989a6a93b7e316e8b288f946d564657397@ec2-44-210-228-110.compute-1.amazonaws.com:5432/d48sn8pim32mjr"
 # app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://shabzy:1111@localhost:5432/flask_app"
 
-# app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://bgegmxlfdcscvg:d29bda716019e219967d4d9649eb7b71d07455ae1ded33113d3e1f488c73143e@ec2-44-205-112-253.compute-1.amazonaws.com:5432/df6e6097isv9hp"
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
