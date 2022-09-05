@@ -20,8 +20,6 @@ app.config['SECRET_KEY'] = 'mysegcret'
 # basedir = os.path.abspath(os.path.dirname(__file__))
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'data.sqlite')
 
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://ffsblmgmysrynv:4cd778e747a75d7bd04e8e4ea51158989a6a93b7e316e8b288f946d564657397@ec2-44-210-228-110.compute-1.amazonaws.com:5432/d48sn8pim32mjr"
-
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
@@ -41,7 +39,7 @@ app.config['MAIL_PORT'] = 465
 app.config['MAIL_USE_SSL'] = True
 app.config['TESTING'] = False
 app.config['MAIL_USERNAME'] = 'shabzynana@gmail.com'
-app.config['MAIL_PASSWORD'] = 'mgtlzuarolxwtuhk'
+app.config['MAIL_PASSWORD'] = ''
 
 
 mail = Mail(app)
